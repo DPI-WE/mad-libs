@@ -1,2 +1,2 @@
 # Mad Libs
-A sinatra mad libs app to demonstrate forms `<form>`
+A sinatra app to demonstrate forms `<form>` using [Mad Libs](https://madlibs.com/).
