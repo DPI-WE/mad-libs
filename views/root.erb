@@ -1,0 +1,31 @@
+<h1>Welcome to Mad Libs!</h1>
+<p>Enter some words in this form and we'll generate a story.</p>
+
+<%#
+  <a href="/madlib?noun=cat&verb=drink&adjective=sweet">Click here to see the mad lib</a>
+%>
+
+<form action="/madlib">
+  <div class="my-2">
+    <%# noun %>
+    <label for="noun_field" class="form-label">Give me a noun!</label>
+    <br>
+    <input id="noun_field" type="text" name="noun" class="form-control">
+  </div>
+
+  <div class="my-2">
+    <%# adjective %>
+    <label for="adjective_field" class="form-label">Give me an adjective!</label >
+    <br>
+    <input id="adjective_field" type="text" name="adjective" class="form-control">
+  </div>
+
+  <div class="my-2">
+    <%# verb %>
+    <label for="verb_field" class="form-label">Give me a verb!</label>
+    <br>
+    <input id="verb_field" type="text" name="verb" class="form-control">
+  </div>
+
+  <button class="btn btn-primary my-2">Let's get mad!</button>
+</form>
